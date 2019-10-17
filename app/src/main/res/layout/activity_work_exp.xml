@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".WorkExp">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:id="@+id/degree1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="CEO"
+            android:textColor="#222222"/>
+        <TextView
+            android:layout_below="@id/degree1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STARK INDUSTRY"
+            android:textSize="12sp"
+            android:textColor="#222222"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp">
+        <TextView
+            android:id="@+id/degree2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="IRON MAN(PART TIME)"
+            android:textColor="#222222"/>
+        <TextView
+            android:layout_below="@id/degree2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNITED STATES OF AMERICA"
+            android:textSize="12sp"
+            android:textColor="#222222"/>
+
+    </RelativeLayout>
+</LinearLayout>
